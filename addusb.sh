@@ -140,7 +140,7 @@ serialb=$(udevadm info -a -n /dev/$tty | grep '{serial}' | tail -n1 | awk 'BEGIN
 #
 mkdir -p /etc/.kernel/.USB 2>/dev/null
 udevadm info -a -n /dev/$tty | grep 'KERNELS' | awk 'BEGIN{FS=" "; OFS=""} {print $1}' > /etc/.kernel/.USB/kernel.txt
-kernel=$(sed -n 2p /etc/.kernel/.USB/kernel.txt)
+kernel=$(sed -n 3p /etc/.kernel/.USB/kernel.txt)
 
 #
 #Selecciona el usuario la variable serial al gusto
