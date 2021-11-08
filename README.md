@@ -36,15 +36,16 @@ Que quiere guardar una Impresora o una Camara
 #?
 ``` 
 
-Podremos elegir lo que queremos por numeros por ejemplo si queremos guardar una impresora lo que tendremos que hacer es presionar el 1 y darle a Enter
+### Impresora
+Podremos elegir lo que queremos por numeros por ejemplo si queremos guardar una impresora lo que tendremos que hacer es presionar el **1** y darle a **Enter**
 ```bash
 Que quiere guardar una Impresora o una Camara
 1) Impresora
 2) Camara
 3) Salir
-#?1
+#? 1
 ```
-***Dato:*** El script no funciona si escribimos ~~Impresora~~ o ~~Camara~~ nos saldra **Error**
+***-Dato:*** El script no funciona si escribimos ~~Impresora~~ o ~~Camara~~ nos saldra **Error**
 
 Ahora podremos elegir si queremos elegir el modo Automatico o Manual
 ``` 
@@ -56,8 +57,34 @@ Por favor, seleccione un modo Automatico, Manual o Salir [1/2/3]
 ```
 
 ### Automatico
-Si elegimos el modo automatico tendremos que 
+***-Dato:*** El modo _Automatico_ solo funciona si el dispositivo tiene **Idserial** o **IdProduct** si no lo tendra que hacer _Manual_ para que detecte en que **puerto** este conectado y solo podra conectarlo a ese puerto (En el modo _Automatico_ da igual en que puerto este conectado)
+
+Si elegimos el modo automatico tendremos que seleccionar la opcion **1**
+``` 
+Por favor, seleccione un modo Automatico, Manual o Salir [1/2/3]
+1) Automatico
+2) Manual
+3) Salir
+#? 1
+```
+
+Ahora en la siguiente nos pedira tener **desconectado** el dispositivo, cuando lo tengamos, presionaremos **1**
+```
+Por favor, desconecte el dispositivo a indentificar [1/2]
+1) Siguiente
+2) Salir
+#? 1
+```
+
+Ahora tendremos que **conectar** el dispositivo por que lo que va a realizar es una _comprobacion de los dispositivos conectados anteriormente_ y el que acabamos de _conectar_
+```
+Por favor, conecte el dispositivo a indentificar [1/2]
+1) Siguiente
+2) Salir
+#? 1
+```
 
 ### Manual
+
 ## Autores ✒️
 - Alvar Yoel Ordoñez Gamez
