@@ -26,3 +26,5 @@ Cuando le hayamos dado permisos de ejecucion lo ejecutaremos
 linux@home/linux/addusb:~$ ./addusb
 ```
 
+## Autores ✒️
+Alvar Yoel Ordoñez Gamez
