@@ -10,21 +10,21 @@ linux@home/linux/:~$ git clone https://github.com/Alvar-Yoel/addusb
 
 Cuando lo tengamos clonado entraremos en el repositorio ya clonado previamente
 
-```bash 
+```bash
 linux@home/linux/:~$ cd addusb
 ```
 
 Ahora dentro de la carpeta le daremos permisos de ejecucion al script
 
 ```bash 
-linux@home/linux/addusb:~$ chmod +x addusb
+linux@home/linux/addusb:~$ chmod +x addusb.sh
 ```
 
 ## Uso🛠️
 Cuando le hayamos dado permisos de ejecucion lo ejecutaremos
 
 ```bash 
-linux@home/linux/addusb:~$ ./addusb
+linux@home/linux/addusb:~$ ./addusb.sh
 ```
 
 ## Autores ✒️
