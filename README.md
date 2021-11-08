@@ -21,13 +21,13 @@ linux@home/linux/addusb:~$ chmod +x addusb.sh
 ```
 
 ## Uso🛠️
-Cuando le hayamos dado permisos de ejecucion lo *ejecutaremos*
+Cuando le hayamos dado permisos de **ejecucion** lo *ejecutaremos*
 
 ```bash 
 linux@home/linux/addusb:~$ ./addusb.sh
 ```
 
-Ahora podremos elegir si queremos guardar una *impresora* o una *camara*
+Ahora podremos elegir si queremos guardar una **Impresora** o una **Camara**
 ```bash
 Que quiere guardar una Impresora o una Camara
 1) Impresora
