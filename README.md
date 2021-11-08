@@ -84,6 +84,11 @@ Por favor, conecte el dispositivo a indentificar [1/2]
 #? 1
 ```
 
+Ahora hara una serie de _comprobaciones_ y apuntara el dispositivo a _guardar_ y nos dara la opcion de ponerle **nombre** el cual le voy a poner **Impresora1** 
+```
+Introduce el nombre del dispositivo: Impresora1
+```
+
 ### Manual
 
 ## Autores ✒️
