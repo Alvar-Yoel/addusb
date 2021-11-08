@@ -1,7 +1,7 @@
 # addusb
 Este script diseñado en bash, sirve para guardar de una forma facil y sencilla un dispositivo en nuestra maquina linux, y que este sea detectado automaticamente al conectarlo de nuevo o al apagar y reiniciar la maquina
 
-## Uso🛠️
+## Despliegue 📦
 Lo primero que tendremos que hacer es clonar el repositorio a nuestra maquina
 
 ```bash 
@@ -20,6 +20,7 @@ Ahora dentro de la carpeta le daremos permisos de ejecucion al script
 linux@home/linux/addusb:~$ chmod +x addusb
 ```
 
+## Uso🛠️
 Cuando le hayamos dado permisos de ejecucion lo ejecutaremos
 
 ```bash 
