@@ -27,5 +27,23 @@ Cuando le hayamos dado permisos de ejecucion lo ejecutaremos
 linux@home/linux/addusb:~$ ./addusb.sh
 ```
 
+Ahora podremos elegir si queremos guardar una impresora o una camara
+```bash
+Que quiere guardar una Impresora o una Camara
+1) Impresora
+2) Camara
+3) Salir
+#?
+```
+
+Podremos elegir lo que queremos por numeros por ejemplo si queremos guardar una impresora lo que tendremos que hacer es presionar el 1 y darle a Enter
+```bash
+Que quiere guardar una Impresora o una Camara
+1) Impresora
+2) Camara
+3) Salir
+#?1
+```
+
 ## Autores ✒️
 Alvar Yoel Ordoñez Gamez
