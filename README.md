@@ -29,7 +29,7 @@ linux@home/linux/addusb:~$ ./addusb.sh
 
 Ahora podremos elegir si queremos guardar una *impresora* o una *camara*
 ```bash
-Que quiere guardar una <p style='color:red'>Impresora</p> o una Camara
+Que quiere guardar una Impresora o una Camara
 1) Impresora
 2) Camara
 3) Salir
@@ -46,5 +46,18 @@ Que quiere guardar una Impresora o una Camara
 ```
 ***Dato:*** El script no funciona si escribimos ~~Impresora~~ o ~~Camara~~ nos saldra **Error**
 
+Ahora podremos elegir si queremos elegir el modo Automatico o Manual
+``` 
+Por favor, seleccione un modo Automatico, Manual o Salir [1/2/3]
+1) Automatico
+2) Manual
+3) Salir
+#?
+```
+
+### Automatico
+Si elegimos el modo automatico tendremos que 
+
+### Manual
 ## Autores ✒️
 - Alvar Yoel Ordoñez Gamez
