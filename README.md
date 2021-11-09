@@ -90,6 +90,14 @@ Introduce el nombre del dispositivo: Impresora1
 ```
 
 ### Manual
+Si elegimos el modo _Manual_ tendremos que seleccionar la opcion **2**
+``` 
+Por favor, seleccione un modo Automatico, Manual o Salir [1/2/3]
+1) Automatico
+2) Manual
+3) Salir
+#? 2
+```
 
 ## Autores ✒️
 - Alvar Yoel Ordoñez Gamez
