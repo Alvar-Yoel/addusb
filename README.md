@@ -37,7 +37,8 @@ Que quiere guardar una Impresora o una Camara
 ``` 
 
 ### Impresora🖨️
-Podremos elegir lo que queremos por numeros por ejemplo si queremos guardar una impresora lo que tendremos que hacer es presionar el **1** y darle a **Enter**
+Podremos elegir lo que queremos por numeros por ejemplo si queremos guardar una _Impresora🖨️_ lo que tendremos que hacer es presionar el **1** y darle a **Enter** y si queremos guardar una _Camara📷_ presionaremos el numero **2** y le daremos al **Enter**
+***-Dato:*** tenemos que recordar que una camara se identifican en otro formato que un _raton, teclado, USB o Impresora_
 ```bash
 Que quiere guardar una Impresora o una Camara
 1) Impresora
@@ -124,5 +125,11 @@ A continuacion saldran en pantalla, los seriales a elegir, tambien, tendras una 
 4) Salir
 #?
 ```
+
+Ahora hara una serie de _comprobaciones_ y apuntara el dispositivo a _guardar_ y nos dara la opcion de ponerle **nombre** el cual le voy a poner **Impresora1** 
+```
+Introduce el nombre del dispositivo: Impresora1
+```
+
 ## Autores ✒️
 - Alvar Yoel Ordoñez Gamez
